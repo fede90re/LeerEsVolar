@@ -1,0 +1,38 @@
+.barra {
+    background-color:#FFD700 ;
+}
+
+.btn-outline-success {
+  color: #FFD700; /* Cambia el color del texto */
+  background-color: #192f6a; /* Cambia el color de fondo */
+  border-color: #192f6a; /* Cambia el color del borde */
+}
+
+.btn-outline-success:hover {
+  color: #FFD700; /* Cambia el color del texto cuando se pasa el cursor */
+  background-color: #3f7ad6; /* Cambia el color de fondo cuando se pasa el cursor */
+  border-color: #192f6a; /* Cambia el color del borde cuando se pasa el cursor */
+}
+.main-color {
+    background-color: #192f6a;
+}
+
+.tipografia {
+    color:#999999;
+    font-family: serif,sans-serif ;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.icono {
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+.nombre {
+    border: 1.5px solid #999999;
+    
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 40%;
+}
