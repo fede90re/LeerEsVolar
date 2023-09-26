@@ -31,8 +31,17 @@
 
 .nombre {
     border: 1.5px solid #999999;
-    
     margin-top: 3rem;
-    margin-bottom: 3rem;
-    border-radius: 40%;
+  
+    
+}
+
+.d-flex{
+    align-items: center;
+}
+
+.img {
+    width: 50%;
+    margin-top: 3rem;
+  
 }

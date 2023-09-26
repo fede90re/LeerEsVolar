@@ -1,0 +1,34 @@
+[
+  {
+    "nombre": "Cien años de soledad",
+    "autor": "Gabriel Garcia Marquez",
+    "imagen": "./img/cien-años.jpg",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aperiam?",
+    "precio": "$2345"
+
+  },
+  {
+    "nombre": "Clean code",
+    "autor": "Robert Cecil Martin",
+    "imagen": "./img/clean-code.jpeg",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aperiam?",
+    "precio": "$5200"
+
+  },
+  {
+    "nombre": "De que hablo cuando hablo de correr",
+    "autor": "Haruki Murakami",
+    "imagen": "./img/dequehablo.jpg",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aperiam?",
+    "precio": "$1500"
+
+  },
+  {
+    "nombre": "El principito",
+    "autor": "Antoine de Saint-Exupéry",
+    "imagen": "./img/el-principito.jpg",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aperiam?",
+    "precio": "$3349"
+
+  }
+]
