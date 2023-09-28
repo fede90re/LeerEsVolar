@@ -6,3 +6,11 @@
 .precio-prod {
     margin-left: 2.5rem;
 }
+
+.card-title {
+    font-size: 2rem;
+}
+
+.card-text {
+    font-size: 1.3rem;
+}

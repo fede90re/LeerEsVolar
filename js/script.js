@@ -1,4 +1,4 @@
-fetch('libros.json')
+fetch('/libros.json')
     .then(response => response.json())
     .then(data => {
         const tarjetaContainer = document.querySelector('.tarjeta-container');
@@ -26,7 +26,7 @@ fetch('libros.json')
             descripcion.textContent = libro.descripcion;
 
             const boton = document.createElement('button');
-            boton.classList.add('btn', 'btn-dark', 'col-md-12', 'd-flex', 'justify-content-center', 'tipografia');
+            boton.classList.add('btn', 'btn-dark', 'col-md-12', 'd-flex', 'justify-content-center', 'tipografia', 'ver-detalle');
             boton.textContent = 'Ver detalle';
             boton.addEventListener('click', () => {
                 // Lógica para mostrar el detalle del libro
@@ -49,3 +49,14 @@ fetch('libros.json')
         });
     })
     .catch(error => console.log(error));
+
+// Obtener todos los botones "ver detalle" en el index.html
+const botonesDetalle = document.querySelectorAll('.ver-detalle');
+
+// Agregar un evento de click a cada botón
+botonesDetalle.forEach((boton, index) => {
+    boton.addEventListener('click', () => {
+        // Redirigir a la página de detalle-producto con el índice del libro como parámetro en la URL
+        window.location.href = `detalle-producto.html?index=${index}`;
+    });
+});
