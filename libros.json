@@ -4,7 +4,8 @@
     "autor": "Gabriel Garcia Marquez",
     "imagen": "./img/cien-años.jpg",
     "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aperiam?",
-    "precio": "$2345"
+    "precio": "$2345",
+    "id": 1
 
   },
   {
@@ -12,7 +13,8 @@
     "autor": "Robert Cecil Martin",
     "imagen": "./img/clean-code.jpeg",
     "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aperiam?",
-    "precio": "$5200"
+    "precio": "$5200",
+    "id": 2
 
   },
   {
@@ -20,7 +22,8 @@
     "autor": "Haruki Murakami",
     "imagen": "./img/dequehablo.jpg",
     "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aperiam?",
-    "precio": "$1500"
+    "precio": "$1500",
+    "id": 3
 
   },
   {
@@ -28,7 +31,8 @@
     "autor": "Antoine de Saint-Exupéry",
     "imagen": "./img/el-principito.jpg",
     "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aperiam?",
-    "precio": "$3349"
+    "precio": "$3349",
+    "id": 4
 
   }
 ]

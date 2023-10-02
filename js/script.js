@@ -30,7 +30,7 @@ fetch('/libros.json')
             boton.textContent = 'Ver detalle';
             boton.addEventListener('click', () => {
                 // Lógica para mostrar el detalle del libro
-                console.log(`Mostrar detalle del libro: ${libro.nombre}`);
+                mostrarDetalleDelLibro(libro.id); //o libro solo?
             });
 
             // Agregar los elementos a la tarjeta
@@ -53,10 +53,15 @@ fetch('/libros.json')
 // Obtener todos los botones "ver detalle" en el index.html
 const botonesDetalle = document.querySelectorAll('.ver-detalle');
 
+//Hago funcion para redireccion de los botones en el index.html
+function mostrarDetalleDelLibro(libro) {
+    window.location.href = `detalle-producto.html?id=${libro.id}`;
+}
+
 // Agregar un evento de click a cada botón
-botonesDetalle.forEach((boton, index) => {
-    boton.addEventListener('click', () => {
-        // Redirigir a la página de detalle-producto con el índice del libro como parámetro en la URL
-        window.location.href = `detalle-producto.html?index=${index}`;
-    });
-});
+//botonesDetalle.forEach((boton, index) => {
+//  boton.addEventListener('click', () => {
+// Redirigir a la página de detalle-producto con el índice del libro como parámetro en la URL
+//  window.location.href = `detalle-producto.html?id=${libro.id}`;
+//  });
+//});
